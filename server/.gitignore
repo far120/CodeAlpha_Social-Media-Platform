@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build Outputs
+dist/
+build/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Database & Storage
+*.sqlite
+*.db
+uploads/
+uploads
+
+# Coverage & Caches
+coverage/
+.nyc_output/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
